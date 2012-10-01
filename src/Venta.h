@@ -2,6 +2,7 @@
 #define VENTA_H_
 
 #include "Pago.h"
+#include "Producto.h"
 
 #include <vector>
 #include <ctime>
