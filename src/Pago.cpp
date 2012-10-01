@@ -8,7 +8,7 @@ Pago::Pago(float monto){
 	this -> monto = monto;
 }
 
-Pago::Pago(time_point fecha, float monto){
+Pago::Pago(time_t fecha, float monto){
 	this -> fecha = fecha;
 	this -> monto = monto;
 }
@@ -17,7 +17,7 @@ Pago::~Pago(){
 
 }
 
-const time_point    Pago::getFecha(){
+const time_t    Pago::getFecha(){
 	return this -> fecha;
 }
 
@@ -25,7 +25,7 @@ const float         Pago::getMonto(){
 	return this -> monto;
 }
 
-void                Pago::setFecha(time_point fecha){
+void                Pago::setFecha(time_t fecha){
 	this -> fecha = fecha;
 }
 
