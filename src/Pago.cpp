@@ -17,18 +17,18 @@ Pago::~Pago(){
 
 }
 
-const time_t    Pago::getFecha(){
+const time_t	Pago::getFecha(){
 	return this -> fecha;
 }
 
-const float         Pago::getMonto(){
+const float     Pago::getMonto(){
 	return this -> monto;
 }
 
-void                Pago::setFecha(time_t fecha){
+void           	Pago::setFecha(time_t fecha){
 	this -> fecha = fecha;
 }
 
-void                Pago::setMonto(float monto){
+void           	Pago::setMonto(float monto){
 	this -> monto = monto;
 }

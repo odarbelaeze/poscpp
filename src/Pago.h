@@ -16,10 +16,10 @@ public:
     ~Pago();
 
     const time_t    getFecha();
-    const float         getMonto();
+    const float     getMonto();
 
-    void                setFecha(time_t fecha);
-    void                setMonto(float monto);
+    void            setFecha(time_t fecha);
+    void            setMonto(float monto);
 };
 
 #endif /* PAGO_H_ */
