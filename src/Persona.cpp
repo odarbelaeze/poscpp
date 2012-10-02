@@ -4,54 +4,54 @@ Persona::Persona(){
 }
 
 Persona::Persona(string id, string nombre, string apellido){
-	this -> id = id;
-	this -> nombre = nombre;
-	this -> apellido = apellido;
+    this -> id = id;
+    this -> nombre = nombre;
+    this -> apellido = apellido;
 }
 
 Persona::~Persona(){
 }
 
 const string Persona::getId(){
-	return this -> id;
+    return this -> id;
 }
 
 const string Persona::getNombre(){
-	return this -> nombre;
+    return this -> nombre;
 }
 
 const string Persona::getApellido(){
-	return this -> apellido;
+    return this -> apellido;
 }
 
 const string Persona::getTelefono(){
-	return this -> telefono;
+    return this -> telefono;
 }
 
 const string Persona::getEmail(){
-	return this -> email;
+    return this -> email;
 }
 
 void Persona::setId(string id){
-	this -> nombre = nombre;
+    this -> nombre = nombre;
 }
 
 void Persona::setNombre(string nombre){
-	this -> nombre = nombre;
+    this -> nombre = nombre;
 }
 
 void Persona::setApellido(string apellido){
-	this -> apellido = apellido;
+    this -> apellido = apellido;
 }
 
 void Persona::setTelefono(string telefono){
-	this -> telefono = telefono;
+    this -> telefono = telefono;
 }
 
 void Persona::setEmail(string email){
-	this -> email = email;
+    this -> email = email;
 }
 
 string Persona::nombreCompleto(){
-	return this -> nombre + " " + apellido;
+    return this -> nombre + " " + this -> apellido;
 }
