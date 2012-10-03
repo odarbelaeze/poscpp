@@ -94,6 +94,13 @@ void    Venta::realizarPago(Pago pago){
     this -> pagos.push_back(pago);
 }
 
+void    Venta::realizarPago(float monto){
+    Pago pago;
+    pago.setFecha(time(NULL));
+    pago.setMonto(monto);
+    this -> realizarPago(pago);
+}
+
 bool    Venta::cancelada(){
     return this -> saldo() == 0.0;
 }

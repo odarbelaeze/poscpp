@@ -38,6 +38,7 @@ public:
     float   saldo();
     void    cancelar();
     void    realizarPago(Pago pago);
+    void    realizarPago(float monto);
     bool    cancelada();
 };
 
