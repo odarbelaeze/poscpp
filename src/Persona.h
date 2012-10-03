@@ -7,7 +7,11 @@ using std::string;
 class Persona
 {
 private:
-    string  id, nombre, apellido, telefono, email;
+    string  id;
+    string  nombre;
+    string  apellido;
+    string  telefono;
+    string  email;
 
 public:
     Persona();
